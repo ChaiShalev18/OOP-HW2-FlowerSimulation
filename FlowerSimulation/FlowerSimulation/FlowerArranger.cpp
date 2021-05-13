@@ -10,5 +10,5 @@ void FlowerArranger::arrangeFlowers(FlowersBouquet* order)
 }
 
 std::string FlowerArranger::getName() {
-	return "Florist " + Person::getName();
+	return "FlowerArranger " + Person::getName();
 }

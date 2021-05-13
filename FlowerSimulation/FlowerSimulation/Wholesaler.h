@@ -8,7 +8,7 @@ private:
 	Grower* grower;
 public:
 	Wholesaler(std::string);
-	void acceptOrder(std::vector<std::string>*);
+	FlowersBouquet* acceptOrder(std::vector<std::string>);
 	std::string getName();
 
 };

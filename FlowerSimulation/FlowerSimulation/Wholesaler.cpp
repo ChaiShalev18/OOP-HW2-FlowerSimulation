@@ -4,11 +4,12 @@ Wholesaler::Wholesaler(std::string name) : Person(name)
 {
 }
 
-void Wholesaler::acceptOrder(std::vector<std::string>* order)
+FlowersBouquet* Wholesaler::acceptOrder(std::vector<std::string> order)
 {
 	// TODO
+	return NULL;
 }
 
 std::string Wholesaler::getName() {
-	return "Florist " + Person::getName();
+	return "Wholesaler " + Person::getName();
 }

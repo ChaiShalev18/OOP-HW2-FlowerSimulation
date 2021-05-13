@@ -9,6 +9,7 @@ DeliveryPerson::DeliveryPerson(std::string name) : Person(name)
 void DeliveryPerson::deliver(Person* person, FlowersBouquet* order)
 {
 	// TODO
+	
 }
 
 std::string DeliveryPerson::getName() {

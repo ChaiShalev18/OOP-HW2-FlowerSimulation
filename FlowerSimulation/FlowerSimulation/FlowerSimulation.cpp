@@ -3,10 +3,16 @@
 #include <iostream>
 #include "Person.h"
 #include "Florist.h"
+#include "FlowerArranger.h"
+#include "DeliveryPerson.h"
+
 
 int main()
 {
-    Florist* fred = new Florist("Fred");
+    Wholesaler* wholesaler = new Wholesaler("Witson");
+    FlowerArranger* flowerArranger = new FlowerArranger("Flora");
+    DeliveryPerson* deliveryPerson = new DeliveryPerson("Dylan");
+    Florist* fred = new Florist("Fred",wholesaler,flowerArranger,deliveryPerson);
     Person* chris = new Person("Chris");
     Person* robin = new Person("Robin");
     std::vector<std::string> order = { "Roses", "Violets", "Gladiolus" };

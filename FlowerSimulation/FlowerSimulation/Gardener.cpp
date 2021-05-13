@@ -4,11 +4,11 @@ Gardener::Gardener(std::string name) : Person(name)
 {
 }
 
-void Gardener::prepareOrder(std::vector<std::string>* order)
+void Gardener::prepareOrder(std::vector<std::string> order)
 {
 	// TODO
 }
 
 std::string Gardener::getName() {
-	return "Florist " + Person::getName();
+	return "Gardener " + Person::getName();
 }
