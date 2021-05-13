@@ -1,4 +1,6 @@
 #include "Florist.h"
+#include <string>
+#include <vector>
 
 Florist::Florist(std::string name) : Person(name)
 {

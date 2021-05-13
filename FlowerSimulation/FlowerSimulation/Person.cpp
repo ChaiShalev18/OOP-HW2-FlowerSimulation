@@ -1,6 +1,10 @@
 #include "Person.h"
 #include "Florist.h"
-
+#include "DeliveryPerson.h"
+#include "FlowerArranger.h"
+#include "Gardener.h"
+#include "Grower.h"
+#include "Wholesaler.h"
 
 Person::Person(std::string name) : name(name)
 {}

@@ -16,4 +16,5 @@ int main()
     delete fred;
     delete chris;
     delete robin;
+    std::getchar();
 }

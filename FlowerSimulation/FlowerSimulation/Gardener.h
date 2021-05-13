@@ -1,7 +1,12 @@
 #pragma once
-class Gardener
+#include "FlowersBouquet.h"
+#include "Person.h"
+
+class Gardener : public Person
 {
 public:
-	FlowersBouquet∗ prepareBouquet(std::vector<std::string >);
+	Gardener(std::string);
+	void prepareOrder(std::vector<std::string>*);
+	std::string getName();
 };
 

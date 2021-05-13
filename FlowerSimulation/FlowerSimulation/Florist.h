@@ -4,9 +4,9 @@
 class Florist : public Person
 {
 private:
-    Wholesaler∗ wholesaler;
-    FlowerArranger∗ flowerArranger;
-    DeliveryPerson∗ deliveryPerson;
+    Wholesaler* wholesaler;
+    FlowerArranger* flowerArranger;
+    DeliveryPerson* deliveryPerson;
 public:
     Florist(std::string);
     void acceptOrder(Person*, std::vector<std::string>);

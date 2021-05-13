@@ -1,7 +1,14 @@
 #pragma once
-class DeliveryPerson
+#include "FlowersBouquet.h"
+#include "Person.h"
+
+class DeliveryPerson : public Person
 {
+private:
+
 public:
-	void deliver(Person∗, FlowersBouquet∗);
+	DeliveryPerson(std::string);
+	void deliver(Person*, FlowersBouquet*);
+	std::string getName();
 };
 
