@@ -3,12 +3,9 @@
 #include <iostream>
 #include <vector>
 
-class Wholesaler; // forward declaration
-class FlowerArranger; // forward declaration
-class DeliveryPerson; // forward declaration
+
 class Florist; // forward declaration
-class Gardener; // forward declaration
-class Grower; // forward declaration
+
 class FlowersBouquet; // forward declaration
 
 class Person
