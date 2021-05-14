@@ -4,9 +4,14 @@ Gardener::Gardener(std::string name) : Person(name)
 {
 }
 
-void Gardener::prepareOrder(std::vector<std::string> order)
+FlowersBouquet* Gardener::prepareOrder(std::vector<std::string> order)
 {
+	std::cout << this->getName() << " prepares flowers." << std::endl;
+	FlowersBouquet* fb = new FlowersBouquet(order);
+
+	return fb;
 	// TODO
+
 }
 
 std::string Gardener::getName() {

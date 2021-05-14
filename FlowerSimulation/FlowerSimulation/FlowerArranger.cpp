@@ -4,11 +4,15 @@ FlowerArranger::FlowerArranger(std::string name) : Person(name)
 {
 }
 
-void FlowerArranger::arrangeFlowers(FlowersBouquet* order)
+FlowersBouquet* FlowerArranger::arrangeFlowers(FlowersBouquet* order)
 {
+	std::cout << this->getName() << " arranges flowers."<< std::endl;
+
+	order->arrange();
+	return order;
 	// TODO
 }
 
 std::string FlowerArranger::getName() {
-	return "FlowerArranger " + Person::getName();
+	return "Flower Arranger " + Person::getName();
 }

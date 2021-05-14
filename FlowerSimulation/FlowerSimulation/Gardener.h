@@ -6,7 +6,7 @@ class Gardener : public Person
 {
 public:
 	Gardener(std::string);
-	void prepareOrder(std::vector<std::string>);
+	FlowersBouquet* prepareOrder(std::vector<std::string>);
 	std::string getName();
 };
 

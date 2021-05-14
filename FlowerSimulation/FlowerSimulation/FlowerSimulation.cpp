@@ -9,10 +9,8 @@
 
 int main()
 {
-    Wholesaler* wholesaler = new Wholesaler("Witson");
-    FlowerArranger* flowerArranger = new FlowerArranger("Flora");
-    DeliveryPerson* deliveryPerson = new DeliveryPerson("Dylan");
-    Florist* fred = new Florist("Fred",wholesaler,flowerArranger,deliveryPerson);
+
+    Florist* fred = new Florist("Fred");
     Person* chris = new Person("Chris");
     Person* robin = new Person("Robin");
     std::vector<std::string> order = { "Roses", "Violets", "Gladiolus" };

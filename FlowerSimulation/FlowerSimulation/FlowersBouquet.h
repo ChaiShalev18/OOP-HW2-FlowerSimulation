@@ -8,6 +8,8 @@ private:
 	bool isArranged;
 	std::vector<std::string> bouquet;
 public:
+	FlowersBouquet(std::vector<std::string>);
+	std::string getBouquet();
 	void arrange();
 };
 

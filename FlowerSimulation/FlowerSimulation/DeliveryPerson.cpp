@@ -6,12 +6,15 @@ DeliveryPerson::DeliveryPerson(std::string name) : Person(name)
 {
 }
 
-void DeliveryPerson::deliver(Person* person, FlowersBouquet* order)
+void DeliveryPerson::deliver(Person* person, FlowersBouquet* fb)
 {
-	// TODO
+	std::cout << this->getName() << " delivers flowers to " << person->getName() << std::endl;
+	person->acceptFlowers(fb);
 	
+
+
 }
 
 std::string DeliveryPerson::getName() {
-	return "DeliveryPerson " + Person::getName();
+	return "Delivery Person " + Person::getName();
 }
