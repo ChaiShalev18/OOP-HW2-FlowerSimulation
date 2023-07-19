@@ -10,7 +10,6 @@ FlowersBouquet* Gardener::prepareOrder(std::vector<std::string> order)
 	FlowersBouquet* fb = new FlowersBouquet(order);
 
 	return fb;
-	// TODO
 
 }
 
