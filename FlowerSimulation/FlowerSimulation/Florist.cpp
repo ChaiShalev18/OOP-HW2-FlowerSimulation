@@ -23,11 +23,6 @@ void Florist::acceptOrder(Person* person, std::vector<std::string> order)
 
 	std::cout << this->getName() << " forwards flowers to " << deliveryPerson->getName() << std::endl;
 	deliveryPerson->deliver(person,fb2);
-	
-
-	//florist->acceptOrder(person, order);
-
-
 }
 
 std::string Florist::getName() {
