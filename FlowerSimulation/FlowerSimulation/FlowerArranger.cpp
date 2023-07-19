@@ -10,7 +10,6 @@ FlowersBouquet* FlowerArranger::arrangeFlowers(FlowersBouquet* order)
 
 	order->arrange();
 	return order;
-	// TODO
 }
 
 std::string FlowerArranger::getName() {
