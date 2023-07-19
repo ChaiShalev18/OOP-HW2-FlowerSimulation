@@ -23,8 +23,4 @@ void Person::orderFlowers(Florist* florist, Person* person, std::vector<std::str
 void Person::acceptFlowers(FlowersBouquet* fb)
 {
 	std::cout << this->getName() << " accepts the flowers: " << fb->getBouquet()<< "." << std::endl;
-
-	/*
-Robin accepts the flowers: Roses, Violets, Gladiolus.
-	*/
 }
